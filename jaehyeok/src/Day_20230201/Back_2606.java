@@ -52,6 +52,7 @@ public class Back_2606 {
 		
 		solve(1);
 		
+		
 		for(int i = 2; i <= N; i++) {
 			if(visited[i]) {
 				result++;
