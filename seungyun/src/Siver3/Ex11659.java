@@ -2,7 +2,7 @@ package Siver3;
 
 import java.util.Scanner;
 
-//11659 구간 합 구하기 ㄱㄱ
+//11659 구간 합 구하기 ㄱㄱ22
 public class Ex11659 {
 
 	public static void main(String[] args) {
