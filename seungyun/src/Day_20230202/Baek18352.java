@@ -43,7 +43,9 @@ public class Baek18352 {
 		}
 		
 		bfs(X);
-		
+		for(int i=0; i<=N; i++) {
+			System.out.println(visit[i]);
+		}
 		for(int i=0; i<=N; i++) {
 			if(visit[i] == K) {
 				answer.add(i);
@@ -67,13 +69,16 @@ public class Baek18352 {
 		q.add(x); // 출발노드 더하기
 		visit[x]++;
 		while(!q.isEmpty()) {
-			int nowX = q.poll();
+			int nowX = q.poll();  
 			for(int i : A[nowX]) {
+				System.out.println(i);
 				if(visit[i] == -1) {
 					visit[i] = visit[nowX] + 1;
+//					System.out.print(i);
 					q.add(i);
 				}
 			}
+			System.out.println("change" + q.peek());
 		}
 	}
 }
