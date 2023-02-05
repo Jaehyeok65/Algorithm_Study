@@ -45,7 +45,7 @@ public class Baek1325 {
 		
 		for(int i=1; i<=N; i++) {
 			if(answer[i] == max) {
-				System.out.println(i + " ");
+				System.out.print(i + " ");
 			}
 		}
 	}
