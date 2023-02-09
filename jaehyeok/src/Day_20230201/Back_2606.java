@@ -40,8 +40,6 @@ public class Back_2606 {
 			list.add(new ArrayList<>());
 		};
 		
-		
-		
 		for(int i = 0; i < M; i++) {
 			StringTokenizer st = new StringTokenizer(br.readLine());
 			int prev = Integer.parseInt(st.nextToken());
