@@ -1,4 +1,4 @@
-package Day20230327;
+package Day_20230327;
 
 import java.util.*;
 public class Baek1747 {
