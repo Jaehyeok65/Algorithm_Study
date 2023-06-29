@@ -18,7 +18,7 @@ class Pro_Level2_24 {
                 for(int k = 0; k < copy.size(); k++) {
                     String tmp = copy.get(k);
                     if(tmp.equals(oper[i][j])) {
-                        copy.set(k - 1, cal(copy.get(k - 1), copy.get(k), copy.get(k + 1)));
+                        copy.set(k - 1, cal(copy.get(k-1), copy.get(k+1), copy.get(k)));
                         copy.remove(k);
                         copy.remove(k);
                         k--;
